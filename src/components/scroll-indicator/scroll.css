@@ -1,0 +1,32 @@
+.top-container {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  background-color: #000000;
+}
+.scroll-progress-tracking-container {
+  width: 100%;
+  height: 0.5rem;
+  background-color: gray;
+}
+.current-progress-bar {
+  height: 0.5rem;
+  background-color: blueviolet;
+  width: 0%;
+}
+.data-container {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.limit-to-2-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

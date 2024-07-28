@@ -1,0 +1,126 @@
+[
+  {
+    "label": "Home",
+    "to": "/"
+  },
+  {
+    "label": "Profile",
+    "to": "/profile",
+    "children": [
+      {
+        "label": "Details",
+        "to": "details",
+        "children": [
+          {
+            "label": "Location",
+            "to": "location",
+            "children": [
+              {
+                "label": "City",
+                "to": "city"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Settings",
+        "to": "/settings",
+        "children": [
+          {
+            "label": "Account",
+            "to": "account"
+          },
+          {
+            "label": "Security",
+            "to": "security",
+            "children": [
+              {
+                "label": "Login",
+                "to": "login"
+              },
+              {
+                "label": "Register",
+                "to": "register"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Dashboard",
+    "to": "/dashboard",
+    "children": [
+      {
+        "label": "Overview",
+        "to": "overview"
+      },
+      {
+        "label": "Reports",
+        "to": "reports",
+        "children": [
+          {
+            "label": "Monthly",
+            "to": "monthly"
+          },
+          {
+            "label": "Annual",
+            "to": "annual"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Messages",
+    "to": "/messages",
+    "children": [
+      {
+        "label": "Inbox",
+        "to": "inbox"
+      },
+      {
+        "label": "Sent",
+        "to": "sent"
+      },
+      {
+        "label": "Drafts",
+        "to": "drafts"
+      }
+    ]
+  },
+  {
+    "label": "Settings",
+    "to": "/settings",
+    "children": [
+      {
+        "label": "General",
+        "to": "general"
+      },
+      {
+        "label": "Privacy",
+        "to": "privacy"
+      },
+      {
+        "label": "Notifications",
+        "to": "notifications"
+      }
+    ]
+  },
+  {
+    "label": "Help",
+    "to": "/help",
+    "children": [
+      {
+        "label": "FAQ",
+        "to": "faq"
+      },
+      {
+        "label": "Contact Support",
+        "to": "contact-support"
+      }
+    ]
+  }
+]

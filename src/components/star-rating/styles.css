@@ -1,0 +1,9 @@
+.active {
+  transition: all 0.15s;
+  color: #fff700;
+}
+.inactive {
+  transition: all 0.15s;
+
+  color: black;
+}

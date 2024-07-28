@@ -1,0 +1,32 @@
+.wrapper {
+  padding: 8px;
+}
+.heading {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.tab-item {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background-color: #4e116a;
+  border-radius: 2rem;
+}
+.tab-item.active {
+  border-color: rgb(161, 10, 10);
+  background-color: #d600d6;
+}
+.content {
+  padding: 20px 10px;
+  height: fit-content;
+  overflow: auto;
+  font-size: larger;
+  font-weight: 500;
+  border-radius: 0.2rem;
+  background-color: #d3d3f3;
+}
