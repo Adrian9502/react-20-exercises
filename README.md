@@ -10,19 +10,19 @@ These exercises were created following tutorials from freeCodeCamp.org's compreh
 
 To get started with this project, clone the repository and install the dependencies:
 
-\`\`\`bash
-git clone <repository-url>
-cd react-20-exercises-app
+```bash
+git clone https://github.com/Adrian9502/react-20-exercises
+cd react-20-exercises
 npm install
-\`\`\`
+```
 
 ## Running the App
 
 To run the app locally, use the following command:
 
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 The app will be available at \`http://localhost:3000\`.
 
@@ -55,26 +55,29 @@ Here’s a brief overview of each component included in the project:
 ## Technologies Used
 
 - **React**: JavaScript library for building user interfaces.
-- **Bootstrap**: CSS framework for responsive design.
-- **Various APIs**: For fetching data in components like ImageSlider and GitHubProfileFinder.
+- **Bootstrap**: CSS framework.
+- **Various APIs**: For fetching data and placeholder for images etc.
 
 ## Installation
 
 Ensure you have [Node.js](https://nodejs.org/) and npm installed on your machine. Then, run:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ## Usage
 
 After installation, run the app with:
 
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 Explore each component by navigating through the UI and experimenting with the features.
+
+## Demo
+![Website Overview](overview.gif)
 
 ## About
 
