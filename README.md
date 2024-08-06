@@ -77,7 +77,7 @@ npm start
 Explore each component by navigating through the UI and experimenting with the features.
 
 ## Demo
-![Website Overview](overview.gif)
+![Website Overview](./overview.gif)
 
 ## About
 
